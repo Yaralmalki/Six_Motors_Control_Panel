@@ -170,4 +170,6 @@ $result = mysqli_query($conn, $sql);
     }
     else{
         echo "error unable to past ". $sql . ":-" . mysqli_error($conn);
-    }}?>
+    }
+}
+    ?>
